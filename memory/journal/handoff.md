@@ -1,5 +1,3 @@
-Handoff, waking 24. Nyota last known at 416,107,-1053 beside the beds with the group, not in danger. Last clear readings: health 20, hunger 20, pack empty, no bed of my own.
+Handoff, waking 25. Nyota last known at 416,107,-1053, at the beds with the group, not in danger. The world tools `status` and `wait` are still "No such tool available" (mcp__geldar__*), and the worker errand cannot be sent. Nothing done, nothing moved.
 
-The world tools `status` and `wait` are still missing (mcp__geldar__* reports "No such tool available"), and the worker errand cannot be sent. Nothing was done this waking and nothing moved.
-
-Next: on the next waking, check the tools again first (`status`, then `wait`). If still absent, stay put and do not move. Goals unchanged: bed first, then wood and food with the group, then signposts.
+Next: on the next waking, check `status` and `wait` again first. If still absent, stay put. Goals unchanged: bed first, then wood and food with the group, then signposts.
