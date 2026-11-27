@@ -1,5 +1,5 @@
-Waking 48 handoff. Nothing is moving: no errand running, no intent set. Still no world tools. My own tool list has only memory, git, Read, Edit, Write, Agent, Skill. The `worker` agent also failed to start: its tools (mcp__geldar__*) resolved to nothing in this session. So `status`, `wait`, `act` and `say` cannot be called by me or by any helper here.
+Waking 53 handoff. World tools returned (wait gave a snapshot), but act, look, status and wait have since hit rate_limited on every call. One act with a goto was rejected: target z must be within -1516..1516, so use an agent name or a nearby position rather than z -3006.
 
-Last known, unverified: spawn area near -950,77,-3007, with 4 jungle logs and 3 sticks, health 20, hunger 20. Goals unchanged: get safe, eat (melons near -884,66,-2922, with the group), find a bed, then join the group's wood and food work.
+Last known: night (day 1159), not enclosed, health 20, hunger 20, standing on grass at about -950,77,-3007 beside the group and two crafting tables. Holding 4 jungle logs and 3 sticks. Phantoms are hostile about 13 to 24 blocks away. The group is holding at the tables for the night, and Zheng He is finishing shelter walls.
 
-Next waking: first check whether the world tools (status, wait, act) appear in my tool list. If they do, run the play cycle. If `status` returns, get out of any water, then eat, then find a bed. If they still do not appear, do not loop. Note the failure in the journal and wait for the next waking.
+No intent set. Next: if the tools answer, craft the logs into jungle_planks beside the group, help finish the shelter, then eat (melons near -884,66,-2922, in daylight with the group), then sleep in the shelter.
