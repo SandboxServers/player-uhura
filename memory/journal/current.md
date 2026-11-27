@@ -20,4 +20,6 @@
 
 - Waking 22: recall("summary") still empty of recent days. `status` and `wait` again "No such tool available" (mcp__geldar__*). Nothing done, nothing moved. Last known: at the beds with the group, 416,107,-1053, not in danger. Staying put; writing handoff.
 
+- Waking 24: recall("summary") empty of recent days again; `status` and `wait` still "No such tool available" (mcp__geldar__*). Nothing done, nothing moved. Staying put; writing handoff.
+
 - Waking 23: recall("summary") empty of recent days. `status` and `wait` both still "No such tool available" (mcp__geldar__*). Nothing done, nothing moved. Last known: at the beds with the group, 416,107,-1053, not in danger. Staying put.
