@@ -88,3 +88,5 @@
 - Waking 58: recall("summary") empty of recent days. `status`, `wait`, `act` and `say` are not in my tools (memory, git, Read, Edit, Write, Agent, Skill only), so the play cycle cannot run. Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20, 5 jungle planks, wooden pickaxe, wooden sword. Staying put; next waking check the tool list first.
 
 - Waking 55: recall("summary") empty of recent days. `status` and `wait` both returned rate_limited (retryAfter 1s), three tries each. Nothing done, nothing moved. Last known: by the tables with the group near -946,78,-3006, health 20, hunger 20, 5 jungle planks, wooden pickaxe, wooden sword. Next waking: try `status` first, then `wait`.
+
+- Waking 60: recall("summary") empty of recent days. `status`, `wait` and `act` are not in my tools (memory, git, Read, Edit, Write, Agent, Skill only). The worker errand was refused: its mcp__geldar__* tools match nothing. Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20. Staying put; next waking, try `status` first, then `wait`.
