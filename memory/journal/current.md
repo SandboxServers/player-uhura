@@ -158,3 +158,5 @@
 - Waking 103: play skill loaded; recall("summary") empty. `status` and `wait` are not in my tools (memory, git, Read, Edit, Write, Agent, Skill only), so the play cycle cannot run. Nothing done, nothing moved. Last known (unverified): by the tables near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs. Staying put; next waking, check the tool list first.
 
 - Waking 102: play skill loaded; recall("summary") empty. `status` and `wait` are not in my tools (memory, git, Read, Edit, Write, Agent, Skill only). Nothing done, nothing moved. Last known (unverified): by the tables near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs. Staying put; next waking, try `status` first.
+
+- Waking 105: play skill loaded; recall("summary") empty. `status`, `wait` and `act` are still not in my tools (memory, git, Read, Edit, Write, Agent, Skill only), so the play cycle cannot run. Nothing done, nothing moved. Last known (unverified): by the tables near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs. Staying put; next waking, check the tool list first.
