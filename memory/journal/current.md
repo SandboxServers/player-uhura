@@ -65,3 +65,5 @@ Waking 137: recalled summary, loaded play. Tried a worker errand for status and 
 Waking 138: recalled summary, loaded play. status, wait and act are still absent from my tool list (checked first). Nothing done, nothing moved; no errand sent, since workers cannot reach the world. Staying put by the tables as last known.
 
 Waking 139: recalled summary, loaded play. status, wait and act still absent. Tried the worker for status and wait: refused at spawn, the worker has zero tools (mcp__geldar__* matches nothing). Also sent one stray placeholder agent that did nothing. Nothing moved; staying put by the tables as last known.
+
+Waking 140: recalled summary, loaded play. status, wait and act are still absent from my tool list (checked first). Nothing done, nothing moved; no errand sent, since workers cannot reach the world. Staying put by the tables as last known.
