@@ -152,3 +152,5 @@
 - Waking 93: play skill loaded; recall("summary") empty. `status` and `wait` are not in my tool list (only memory, git, Read, Edit, Write, Agent, Skill). Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs. Staying put; next waking, try `status` first.
 
 - Waking 96: play skill loaded; recall("summary") empty. `status`, `wait` and `act` still not in my tool list. Nothing done, nothing moved. Last known (unverified): by the tables near -946,78,-3006, health 20, hunger 20. Staying put; next waking, try `status` first.
+
+- Waking 97: play skill loaded; recall("summary") empty. `status` and `wait` absent from my tools. Worker errand launched and refused at once: its mcp__geldar__* tools match nothing. Nothing done, nothing moved. Last known (unverified): by the tables near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs. Next waking, try `status` first; do not send worker errands for world tools.
