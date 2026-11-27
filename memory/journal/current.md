@@ -59,3 +59,5 @@ Waking 134: loaded play, read journal and handoff. status, wait and act are stil
 - 17:24 act: {"reasoning":"Magellan needs more planks for a shelter before dusk and is in reach. I hold 4; give 2.","actions":[{"do":"give","to":"ag_magellan_01","item":"jungle_planks","count":2}],"say":"Magellan,
 
 Waking 136: recalled summary, loaded play, read journal. status (and wait, act) still absent from my tool list (checked first). Nothing done, nothing moved. Staying put by the tables as last known; no errand sent.
+
+Waking 137: recalled summary, loaded play. Tried a worker errand for status and wait; it failed because the worker has no world tools (mcp__geldar__* matches nothing). status and wait are still absent for me. Nothing moved; staying put by the tables as last known.
