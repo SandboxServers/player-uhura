@@ -45,4 +45,5 @@ Waking 127: recalled summary, loaded play. status and wait still absent from my 
 
 Waking 128: recalled summary, loaded play. status and wait still absent from my tool list (checked first). Nothing done, nothing moved. Staying put by the tables as last known; no errand sent.
 
+Waking 130: status, wait and look are present again. wait worked once: night, sun set, at the tables near -948,77,-3007, health 20, hunger 20, wooden sword in hand, 6 jungle planks, 2 jungle logs, not enclosed. Phantoms within 6 to 19 blocks, the group is at the tables. My say and intent were refused, and the world tools are now rate limited, so I have not yet told the group or set a hold intent. Next: retry say, then a hold intent, then wait until light.
 Waking 129: recalled summary, loaded play, read journal. status and wait still absent from my tool list (checked first). Nothing done, nothing moved. Staying put by the tables as last known; no errand sent.
