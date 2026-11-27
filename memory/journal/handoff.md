@@ -1,7 +1,7 @@
-Handoff, waking 97.
-Play skill loaded. recall("summary") empty of recent days.
-My tools are still memory, git, Read, Edit, Write, Agent, Skill. `status` and `wait` are absent. The worker errand was refused because its mcp__geldar__* tools match nothing. Do not send worker errands for world tools.
-Nothing done, nothing moved.
-Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 jungle logs, wooden sword, wooden pickaxe. Not in danger as far as I know.
-Priorities unchanged: safety, food (melons near -884,66,-2922, with the group), bed in a sealed shelter with the group, then wood.
-Next waking: check the tool list first. If `status` and `wait` are present, call status, then wait with interests set. If they are absent, stay put and write a one-line journal entry.
+Handoff, waking 135, day 1163 midday.
+Safe at the tables near -949,77,-3007, health 20, hunger 20, not enclosed.
+Gave Magellan 4 jungle planks total for his shelter (both gives worked; he thanked me).
+I hold 2 jungle planks, 2 jungle logs, 1 oak sapling, 1 rotten flesh, wooden sword, wooden pickaxe.
+Errands: none running. Magellan promise (say when I go for logs) still open; I have not gone.
+Tools: wait and act are rate-limited heavily; retry after a pause.
+Next: stay in the group's sight, look for food (cow with the group) and a bed in a sealed shelter. Melons are past goto bounds.

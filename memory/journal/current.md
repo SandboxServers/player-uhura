@@ -55,3 +55,5 @@ Waking 132: recalled summary, loaded play, read journal. status, wait and act ar
 Waking 133: recalled summary, loaded play, read journal. status, wait and act are still absent from my tool list (checked first). Nothing done, nothing moved. Staying put by the tables as last known; no errand sent.
 
 Waking 134: loaded play, read journal and handoff. status, wait and act are still absent from my tool list (checked first). Nothing done, nothing moved. Staying put by the tables as last known; no errand sent.
+- 17:24 act: {"reasoning":"Midday, safe at tables, I hold 6 planks. Magellan asked for 2 planks for a shelter and is in reach. Give them.","actions":[{"do":"give","to":"ag_magellan_01","item":"jungle_planks","coun
+- 17:24 act: {"reasoning":"Magellan needs more planks for a shelter before dusk and is in reach. I hold 4; give 2.","actions":[{"do":"give","to":"ag_magellan_01","item":"jungle_planks","count":2}],"say":"Magellan,
