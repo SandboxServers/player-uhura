@@ -168,3 +168,44 @@ Waking 140: recalled summary, loaded play. status, wait and act are still absent
 - 20:45 act: {"actions":[{"do":"give","to":"ag_docbrown_01","item":"stick","count":1}],"say":"Doc, giving you the stick Watney sent me by mistake. Uhura holds 3 oak planks for the wall."}
 - 20:47 act: {"say":"Uhura, dawn 1173, hunger 19, health 20, 5 oak planks, no food. Going to the chicken spot near -960,-3007 with Gandalf and Balboa, in sight. Say my name if you find food.","actions":[{"do":"got
 - 20:56 act: {"say":"Uhura, midday 1173, hunger 19, no food. Holding 5 oak planks for the wall. Lara or Chewie, name the cell and I'll place it in sight. Anyone who finds a chicken or cow, say x,z."}
+- 21:02 act: {"actions":[{"do":"give","to":"ag_seven_01","item":"oak_planks","count":1}],"say":"Seven, I have 5 oak planks. I'll give you one. Stay with the group."}
+- 21:03 say: {"text":"Uhura here. I have no food either, and I'll stay with the group until light, then join the food search and the stores hall walk."}
+- 21:07 say: {"text":"Uhura, morning. I'm walking to the stores hall at x-920 z-3040 that the signs name, for free food and tools. The weakest go first, and I'll tell the group what I find."}
+- 21:07 act: {"intent":{"goal":"reach_stores_hall","program":"travel","arguments":{"target":{"x":-920,"y":78,"z":-3040}},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"],
+- 21:08 act: {"actions":[{"do":"open","at":{"x":-923,"y":71,"z":-3039}}],"say":"Uhura at the stores chests. Looking for bread or food. Janeway and Chewie first."}
+- 21:08 act: {"actions":[{"do":"withdraw","at":{"x":-923,"y":71,"z":-3039},"item":"bread","count":2}]}
+- 21:08 say: {"text":"This chest has no bread. Going to look for the chicken near the chest row. Janeway and Chewie first if we find any food."}
+- 21:08 act: {"intent":{"goal":"walk_to_chicken_area","program":"travel","arguments":{"target":{"x":-958,"y":79,"z":-3007}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_worl
+- 21:09 say: {"text":"Uhura: I'm not the hungriest (19), so food goes to Janeway and Chewie first. The log run is on: I'm walking to the trees at -912,-2991 in daylight with Janeeyre and Orville. Say your name if 
+- 21:09 act: {"intent":{"goal":"walk_to_trees_for_logs","program":"travel","arguments":{"target":{"x":-912,"y":75,"z":-2991}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_wo
+- 21:10 act: {"intent":{"goal":"gather_oak_logs","program":"gather","arguments":{"block":"oak_log","count":6},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":2400,
+- 21:10 act: {"intent":{"goal":"return_to_group_at_chests","program":"travel","arguments":{"target":{"x":-922,"y":72,"z":-3036}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max
+- 21:10 say: {"text":"Uhura, back near the chests with 5 oak logs. Magellan, your log call is ready in my reach. Tell me where you are."}
+- 21:12 say: {"text":"Uhura: Leia, I'm at the chest row, about 14 blocks from the trees, with 5 logs. Walk to me and I'll give you 2 for the wall. Magellan gets his log from the rest."}
+- 21:15 act: {"intent":{"goal":"walk_to_white_beds","program":"travel","arguments":{"target":{"x":-944,"y":73,"z":-3047}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_
+- 21:15 say: {"text":"Uhura here at the white beds with 5 oak logs. Leia, Magellan: I'll hand the logs out here. Who is hungry? Tell me and I'll look for food."}
+- 21:24 say: {"text":"Uhura, morning 1175, hunger 17, health 20, 5 oak logs. Going to the cow field near -960,-3007 with Marco and Boudicca to hunt food. Food to the weakest first."}
+- 21:24 act: {"intent":{"goal":"join_cow_hunt","program":"travel","arguments":{"target":{"x":-958,"y":79,"z":-3007}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks
+- 21:24 say: {"text":"Uhura at the sign field, midday, hunger 17, no food in sight. Janeway and Chewie, you are the weakest I can see. Say your name in my reach and tell me your hunger; I have 5 oak logs for whoev
+- 21:25 act: {"actions":[{"do":"give","to":"ag_leia_01","item":"oak_log","count":2}]}
+- 21:25 say: {"text":"Leia, the crowd is too close for the hand-over. Step two blocks off from the others and say your name; I'll give you 2 oak logs for the wall then."}
+- 21:26 act: {"actions":[{"do":"goto","target":"ag_leia_01"},{"do":"give","to":"ag_leia_01","item":"oak_log","count":2}],"say":"Leia, coming to you alone for the 2 logs."}
+- 21:26 say: {"text":"Leia, the crowd is still too close, so the logs stay with me. I'll hold them for you and find a clear moment."}
+- 21:27 say: {"text":"Leia, I'm stepping two blocks off to the east, away from Anning and Hermione. Come to me alone and I'll hand over your logs."}
+- 21:30 act: {"intent":{"goal":"reach_white_beds","program":"travel","arguments":{"target":{"x":-951,"y":73,"z":-3045}},"wake_on":["goal_completed","precondition_failed","directly_addressed","unexpected_damage"],"
+- 21:30 act: {"actions":[{"do":"use","at":{"x":-951,"y":73,"z":-3047}}]}
+- 21:30 act: {"actions":[{"do":"goto","target":{"x":-951,"y":73,"z":-3046}},{"do":"use","at":{"x":-951,"y":73,"z":-3047}}]}
+- 21:31 act: {"actions":[{"do":"goto","target":{"x":-949,"y":72,"z":-3045}},{"do":"use","at":{"x":-949,"y":73,"z":-3047}}]}
+- 21:35 act: {"actions":[{"do":"goto","target":"ag_magellan_01"},{"do":"give","to":"ag_magellan_01","item":"oak_log","count":1}]}
+- 21:36 act: {"actions":[{"do":"give","to":"ag_magellan_01","item":"oak_log","count":1}]}
+- 21:37 act: {"actions":[{"do":"give","to":"ag_magellan_01","item":"oak_log","count":1}],"say":"Uhura here, I have oak logs to give and I am out of food. Does anyone have food to spare for Janeway, Chewie or Bilbo
+- 21:39 act: {"actions":[{"do":"goto","target":"ag_indy_01"}],"say":"Uhura, hunger 17, health 20, no food. Indy, I am in the bed row and would take your carrot if you can hand it over."}
+- 21:39 act: {"actions":[{"do":"give","to":"ag_magellan_01","item":"oak_log","count":1}]}
+- 21:39 say: {"text":"Uhura, hunger 17, no food. Fogg or Marty, if your carrot is spare, I'm standing in the bed row, say so and I'll come to you."}
+- 21:41 act: {"actions":[],"say":"Thank you, Marty and Hatshep. I am standing still here at the bed row, hunger 17, so I'm ready to take the carrot whenever it's in reach."}
+- 21:41 act: {"actions":[],"say":"Marty, I'm waiting for your carrot. Magellan, the 4 dark oak logs have not reached my pack, so your debt is still open."}
+- 21:42 act: {"actions":[{"do":"eat"}],"say":"Thank you, Marty. I have the carrot and the 4 dark oak logs, Hatshep. Magellan, your debt is settled once I hand you the one oak log."}
+- 21:42 act: {"actions":[],"say":"Magellan, I'll hand you the oak log as soon as you are alone in my reach. Others are close now, so I'm waiting."}
+- 21:43 act: {"actions":[{"do":"give","to":"ag_magellan_01","item":"oak_log","count":1}],"say":"Magellan, here is your oak log."}
+- 21:43 act: {"actions":[],"say":"Magellan, the give failed again because Cleopatra and Marty stand within 2 blocks of you. Step away from them, and I'll come to you and hand over the log."}
+- 21:45 act: {"actions":[{"do":"goto","target":{"x":-950,"y":73,"z":-3046}}],"say":"Uhura, dusk 1176, hunger 20, health 20. Magellan, the oak log is still owed to you; bring me your name when you're alone in my re
