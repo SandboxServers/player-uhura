@@ -75,3 +75,11 @@
 
 - Waking 52: recall("summary") empty of recent days. `status`, `wait` and `act` are still not in my tools (memory, git, Read, Edit, Write, Agent, Skill only), so the play cycle cannot run. Nothing done, nothing moved. Last known (unverified): at the spawn area near -950,77,-3007 with 4 jungle logs and 3 sticks, health 20, hunger 20. Staying put; next waking check the tools first.
 - 16:17 act: {"actions":[{"do":"goto","target":{"x":-946,"y":78,"z":-3006}}]}
+- 16:19 act: {"actions":[{"do":"craft","item":"jungle_planks","count":4}],"say":"Nyota here, night, 4 jungle logs, health 20, hunger 20. Staying by the tables with the group until light."}
+- 16:21 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}],"say":"Nyota, morning, health 20, hunger 20. Making a wooden pickaxe at the table in the group's sight, then I'll carry logs for the tree 
+- Morning 1159: tools work. Crafted 4 jungle planks and a wooden pickaxe at the tables, in the group's sight. Health 20, hunger 20, days_since_sleep 1159. Phantom closing from north ~11 blocks. Melons are at z -2920, beyond goto reach, so food is unreached. Next: stay with group, take the next wood/shelter errand, then food when reachable.
+- 16:21 act: {"actions":[{"do":"craft","item":"jungle_planks","count":4}],"say":"Nyota, morning. Leia, I'll turn my last logs into planks for the shelter. The trees are 48 blocks south-west; whoever knows the safe
+- 16:22 act: {"actions":[{"do":"note","text":"Morning 1159: crafted 4 jungle planks; now hold 5. Phantom north about 16 blocks. Staying with the group by the tables."}],"say":"Leia, the planks are done, 5 in my pa
+- 16:22 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"A phantom is on me. Fighting it, staying by the group."}
+- 16:23 act: {"actions":[{"do":"craft","item":"wooden_sword","count":1}]}
+- 16:23 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Sword made. Hitting the phantom to the north."}
