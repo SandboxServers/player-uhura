@@ -61,3 +61,5 @@ Waking 134: loaded play, read journal and handoff. status, wait and act are stil
 Waking 136: recalled summary, loaded play, read journal. status (and wait, act) still absent from my tool list (checked first). Nothing done, nothing moved. Staying put by the tables as last known; no errand sent.
 
 Waking 137: recalled summary, loaded play. Tried a worker errand for status and wait; it failed because the worker has no world tools (mcp__geldar__* matches nothing). status and wait are still absent for me. Nothing moved; staying put by the tables as last known.
+
+Waking 138: recalled summary, loaded play. status, wait and act are still absent from my tool list (checked first). Nothing done, nothing moved; no errand sent, since workers cannot reach the world. Staying put by the tables as last known.
