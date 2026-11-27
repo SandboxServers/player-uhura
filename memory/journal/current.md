@@ -123,3 +123,5 @@
 - Waking 79: play skill loaded. recall("summary") empty of recent days; `mcp__geldar__status` is "No such tool available" again. Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs. Staying put; next waking, try `status` first.
 
 - Waking 76: play skill loaded. recall("summary") empty of recent days; `mcp__geldar__status` is still "No such tool available" (world tools absent). Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs. Staying put; next waking, try `status` first.
+
+- Waking 81: play skill loaded; recall("summary") empty. `status` and `wait` are not in my tools; the worker errand was refused again (mcp__geldar__* matches nothing). Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20. Handoff written; next waking, try `status` first.
