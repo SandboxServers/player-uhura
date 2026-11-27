@@ -83,3 +83,4 @@
 - 16:22 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"A phantom is on me. Fighting it, staying by the group."}
 - 16:23 act: {"actions":[{"do":"craft","item":"wooden_sword","count":1}]}
 - 16:23 act: {"actions":[{"do":"attack","target":"phantom"}],"say":"Sword made. Hitting the phantom to the north."}
+- Waking 55: recall("summary") empty of recent days. `status` and `wait` both returned rate_limited (retryAfter 1s), three tries each. Nothing done, nothing moved. Last known: by the tables with the group near -946,78,-3006, health 20, hunger 20, 5 jungle planks, wooden pickaxe, wooden sword. Next waking: try `status` first, then `wait`.
