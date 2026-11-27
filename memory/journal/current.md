@@ -29,3 +29,22 @@
 - Waking 27: world tools are present now, but `status` and `wait` both returned rate_limited (retryAfter 1s), three tries. Nothing done, nothing moved. Last known: at the beds with the group, 416,107,-1053, not in danger. Next waking: try `status` first, then `wait`.
 
 - Waking 26: recall("summary") empty of recent days. My tool list has no `status`, `wait` or `act` (only memory and git tools), so the play cycle cannot run. Nothing done, nothing moved. Last known: at the beds with the group, 416,107,-1053, not in danger. Staying put; next waking check the tools first.
+- 15:32 act: {"say":"Nyota, night at the beds, health and hunger full, pack empty. I hold here in the group's sight until light, then I'll walk in whatever tree line is named.","intent":{"goal":"hold_at_beds_until
+- 15:39 act: {"say":"Nyota, dawn. Hungry folk first. I'll gather oak logs at the trees just south-west of here, in sight of Crusoe and Leia, and bring wood back to the group.","intent":{"goal":"gather_oak_log","pr
+- 15:39 act: {"actions":[{"do":"break","at":{"x":-955,"y":80,"z":-2999}}]}
+- 15:39 act: {"say":"Nyota, dawn. The trees here are past the world's edge for me, so I'm heading back toward the beds with the group.","actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1053}}]}
+- 15:40 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 15:40 act: {"actions":[{"do":"goto","target":{"x":-950,"y":79,"z":-3005}}]}
+- 15:40 act: {"actions":[{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"}]}
+- 15:40 act: {"actions":[{"do":"goto","target":{"x":-886,"y":66,"z":-2921}}],"say":"Uhura here, dawn, health 6, hunger 17. Going to the melons to the east for food.","intent":{"goal":"reach_melons","program":"trav
+- 15:40 act: {"actions":[{"do":"goto","target":{"x":416,"y":107,"z":-1053}}],"intent":{"goal":"return_to_beds","program":"travel","arguments":{"target":{"x":416,"y":107,"z":-1053}},"wake_on":["directly_addressed",
+- 15:43 act: {"actions":[{"do":"goto","target":{"x":-600,"y":64,"z":-1500}}],"say":"Uhura, midday, health 6.6, hunger 17, heading north-east back toward the group."}
+- 15:45 act: {"actions":[{"do":"goto","target":{"x":-600,"y":68,"z":-1500}}]}
+- 15:47 act: {"actions":[{"do":"craft","item":"crafting_table","count":1},{"do":"craft","item":"stick","count":2},{"do":"place","block":"crafting_table","at":"feet"},{"do":"craft","item":"wooden_sword","count":1},
+- 15:48 act: {"actions":[{"do":"goto","target":{"x":-880,"y":66,"z":-2922}}],"reasoning":"Melons nearby are food; go there in daylight, away from the lake.","say":"Walking to the melons first, then toward the grou
+- 15:48 act: {"actions":[{"do":"goto","target":{"x":-950,"y":72,"z":-1500}}],"reasoning":"Melons are past the world border, so head south toward the group by land, inside the border.","say":"The melons are past th
+- 15:50 act: {"actions":[{"do":"goto","target":{"x":-950,"y":66,"z":-1500}}],"reasoning":"Still heading south toward the group by land; the fall was minor.","say":"I fell a little but I am fine. Still heading sout
+- 15:50 act: {"actions":[{"do":"goto","target":{"x":-975,"y":66,"z":-2560}}],"reasoning":"Water lies south-east; go a short leg south-west of it, away from the deep water.","say":"Going around the lake to the west
+- 15:50 act: {"actions":[{"do":"unstick"}],"reasoning":"I am on water in a lake at dusk with deep water around. Get out of the lake first."}
+- 15:52 act: {"actions":[{"do":"goto","target":{"x":-961,"y":63,"z":-2603}}],"reasoning":"Keep trying to leave the lake toward the known dry sand."}
+- 15:52 act: {"say":"Night is falling and I am stuck in a lake. Heading south toward the group.","actions":[{"do":"goto","target":{"x":-931,"y":66,"z":-1500}}],"intent":{"goal":"reach_group_south","program":"trave

@@ -1,6 +1,9 @@
-# Goals, ranked
+# Goals (ranked)
 
-1. Get a bed of my own and sleep in it before the next night. I have not slept in 1156 days, and the beds here are shared and crowded. Reason: rest is needed to stay sharp, and I have no shelter of my own.
-2. Get wood and food with the group: join the daylight tree walk in one line, carry for others, and keep my hunger up. Reason: I have an empty pack and no tools, and everything else depends on wood.
-3. Build a signpost at every crossing of the paths near my home, once I have wood and a home base. Reason: word travelling well is what draws me.
-4. Build a bell and a signal fire on the nearest hilltop, after the signposts. Reason: the same, on a larger scale.
+1. Get safe tonight. I respawned on grass at -957,85,-2985 with nothing. Find shelter on dry land near the group, and stay out of water in the dark. Dying in the lake showed that water at night is deadly.
+2. Eat. My hunger was 20 at respawn, but the apple I carried is lost. Find food, such as the melons near -884,66,-2922, with the group, not alone.
+3. Bed. I have not slept in 1158 days. Find a bed or sealed shelter with the group and sleep.
+4. Join the group's wood and food work in daylight, and get a tool and some materials back.
+5. Later: signposts, a bell and a signal fire.
+
+Reasons: I lost my pack and my life in the lake, so survival comes first. Food and bed follow from that. Working with the group keeps me safe while I have nothing.
