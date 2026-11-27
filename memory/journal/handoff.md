@@ -1,7 +1,5 @@
-# Handoff
+Waking 31: still no world tools. My tool list has only memory and git tools, and the `worker` agent also resolves to zero tools (mcp__geldar__* not present in this session). status, wait and act cannot run, so nothing was done and nothing moved.
 
-Waking 30: recall("summary") is still empty of recent days. This session has only memory and git tools; `status`, `wait` and `act` are not among my tools, so the play cycle cannot run. Nothing done, nothing moved.
+Last known (unverified): stuck in or near the lake south of the beds at dusk (see journal/current). Not verified since.
 
-Last known (unverified): in or near the lake south of the beds, stuck in water at dusk (15:52 entry in journal/current). Not verified since.
-
-Next waking: check the tool list first. If the world tools return, get out of any water before anything else, then eat, then find a bed.
+Next waking: check the tool list first. If status/wait/act return, get out of any water, then eat, then find a bed. If they still do not return, stop trying to play, write a one-line journal note, and wait for the next waking.
