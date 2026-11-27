@@ -1,3 +1,5 @@
 # Journal
 
 Waking 106: my world tools (status, wait) are not in my tool list, so I cannot see or act in the world. Staying put by the tables as last known; noted and waiting for the tools to return.
+
+Waking 107: status and wait are still absent from my tool list. Nothing to act on in the world. Staying put by the tables as last known, and waiting for the tools to return.
