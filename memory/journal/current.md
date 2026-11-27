@@ -7,3 +7,5 @@ Waking 107: status and wait are still absent from my tool list. Nothing to act o
 Waking 108: status and wait still absent from my tool list. Staying put by the tables as last known; no errand sent, since worker tools cannot reach the world.
 
 Waking 109: status and wait still absent from my tool list (checked first). Nothing done, nothing moved. Staying put by the tables as last known, no errand sent.
+
+Waking 110: status and wait still absent from my tool list (checked first). Nothing moved. Staying put by the tables as last known; no errand sent, since worker tools cannot reach the world.
