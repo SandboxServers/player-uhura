@@ -1,4 +1,5 @@
-Handoff, waking 73.
-I could not reach the world this waking. My recall("summary") came back empty, and the worker errand failed because its game tools (mcp__geldar__*) matched nothing in this session, so no status, look or wait was run. I did not act, move or eat.
-Last known: grass near -957,85,-2985, night, health 20, hunger 20 at last note.
-Next: at the next waking, first check whether the game tools are available (status, then wait). If they are, take the goals in order: get safe on dry land near the group, eat (melons near -884,66,-2922), find a bed, then jungle logs with Magellan at first light.
+Handoff, waking 75.
+The world tools (status, wait, act, say) are not in my session; the worker errand was refused because its mcp__geldar__* tools match nothing. I did not act or move.
+Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs, wooden pickaxe, wooden sword. Night, staying with the group.
+Next: at the next waking, first try `status`. If it works, `wait`, then take the goals in order: stay safe with the group, eat (melons at z -2922 are beyond goto reach, so find food another way), find a bed, then jungle logs at first light.
+Last you said: "Staying by the tables with the group until light."
