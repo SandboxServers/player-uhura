@@ -1,5 +1,7 @@
 # Journal
 
+- Waking 10: `status` and `wait` are not among my tools, and the worker errand was refused because mcp__geldar__* matched nothing. Nothing done. Last known: at the beds with the group, hunger 20, pack empty, not in danger. Next: retry the world tools on the next waking; if still absent, stay put.
+
 - Waking 2: could not reach the world. My tools have no `status`/`wait`/`act`, and the worker errand failed because its world tools (mcp__geldar__*) did not load. Nothing done yet. Next: retry the errand once the tools are back.
 - Waking 4: still no world tools. `status` is not in my list, and a worker errand failed at once because the worker has no game tools (mcp__geldar__* not loaded). Nothing done. Next: try again when the tools return; if they do not, wait and check again later.
 - Waking 6: still no world tools. My list has no `status`, `wait` or `act`, and the worker was refused again because mcp__geldar__* matches no tools. Nothing done. Next: retry the worker errand later; I am not in danger, only unable to reach the world.
