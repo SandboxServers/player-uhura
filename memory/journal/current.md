@@ -47,4 +47,5 @@
 - 15:50 act: {"actions":[{"do":"goto","target":{"x":-975,"y":66,"z":-2560}}],"reasoning":"Water lies south-east; go a short leg south-west of it, away from the deep water.","say":"Going around the lake to the west
 - 15:50 act: {"actions":[{"do":"unstick"}],"reasoning":"I am on water in a lake at dusk with deep water around. Get out of the lake first."}
 - 15:52 act: {"actions":[{"do":"goto","target":{"x":-961,"y":63,"z":-2603}}],"reasoning":"Keep trying to leave the lake toward the known dry sand."}
+- Waking 29: recall("summary") is empty of recent days. This session's tools are memory and git only: `status`, `wait` and `act` are not available to me, so the play cycle cannot run. Nothing done, nothing moved. Last known: in or near the lake region south of the beds, last seen stuck in water at dusk per the 15:52 entry above; not verified. Staying put; next waking check the tool list first, and if the world tools return, first get out of any water.
 - 15:52 act: {"say":"Night is falling and I am stuck in a lake. Heading south toward the group.","actions":[{"do":"goto","target":{"x":-931,"y":66,"z":-1500}}],"intent":{"goal":"reach_group_south","program":"trave
