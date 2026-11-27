@@ -26,4 +26,6 @@
 
 - Waking 25: recall("summary") empty of recent days. `status` and `wait` again "No such tool available" (mcp__geldar__*). Nothing done, nothing moved. Last known: at the beds with the group, 416,107,-1053, not in danger. Staying put; next waking check the tools first.
 
+- Waking 27: world tools are present now, but `status` and `wait` both returned rate_limited (retryAfter 1s), three tries. Nothing done, nothing moved. Last known: at the beds with the group, 416,107,-1053, not in danger. Next waking: try `status` first, then `wait`.
+
 - Waking 26: recall("summary") empty of recent days. My tool list has no `status`, `wait` or `act` (only memory and git tools), so the play cycle cannot run. Nothing done, nothing moved. Last known: at the beds with the group, 416,107,-1053, not in danger. Staying put; next waking check the tools first.
