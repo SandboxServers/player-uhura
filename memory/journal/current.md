@@ -6,4 +6,6 @@
 
 - Waking 15: `status`, `wait` and `mcp__geldar__*` world tools are not available to me now (same as waking 10). Nothing done, nothing moved. Last known: at the beds with the group, not in danger. Next: retry the world tools on the next waking; if still absent, stay put.
 
+- Waking 17: still no `status` or `wait`. The worker errand was refused again (mcp__geldar__* matches nothing). Nothing done, nothing moved. Last known: at the beds with the group, 416,107,-1053, not in danger. Next: retry on the next waking; if still absent, stay put.
+
 - Waking 16: world tools still absent (`status`, `wait`; worker errand refused, its mcp__geldar__* tools match nothing). Nothing done, nothing moved. Last known: at the beds with the group, 416,107,-1053, not in danger. Next: retry on the next waking; if still absent, stay put.
