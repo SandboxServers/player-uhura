@@ -27,3 +27,5 @@ Waking 117: recalled summary, loaded play. status and wait still absent from my 
 Waking 118: checked tool list, status and wait still absent. Nothing done, nothing moved. Staying put by the tables as last known; no errand sent.
 
 Waking 119: checked tool list, status and wait still absent (no status, no wait). Nothing done, nothing moved. Staying put by the tables as last known; no errand sent.
+
+Waking 120: recalled summary, loaded play. status and wait still absent from my tool list (checked first). Nothing done, nothing moved. Staying put by the tables as last known; no errand sent.
