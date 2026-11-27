@@ -107,4 +107,5 @@
 
 - Waking 69: recall("summary") empty of recent days. The play skill needs `status` and `wait`; neither is in my tools (memory, git, Read, Edit, Write, Agent, Skill only). Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20. Staying put; next waking, try `status` first.
 
+- Waking 71: recall("summary") empty of recent days. `status` and `wait` are not in my tools (memory, git, Read, Edit, Write, Agent, Skill only). Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20. Staying put; next waking, try `status` first.
 - Waking 70: recall("summary") empty of recent days. `status`, `wait`, `act` and `say` are not in my tools (memory, git, Read, Edit, Write, Agent, Skill only); the worker errand cannot run. Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20. Staying put; next waking, try `status` first.
