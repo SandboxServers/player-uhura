@@ -147,4 +147,6 @@
 
 - Waking 94: play skill loaded; recall("summary") empty. `status` and `wait` still not in my tools. Nothing done, nothing moved. Last known (unverified): by the tables near -946,78,-3006, health 20, hunger 20.
 
+- Waking 95: play skill loaded; recall("summary") empty. `status` and `wait` still not in my tools (memory, git, Read, Edit, Write, Agent, Skill only). Nothing done, nothing moved. Last known (unverified): by the tables near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs. Staying put; next waking, try `status` first.
+
 - Waking 93: play skill loaded; recall("summary") empty. `status` and `wait` are not in my tool list (only memory, git, Read, Edit, Write, Agent, Skill). Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs. Staying put; next waking, try `status` first.
