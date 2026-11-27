@@ -1,7 +1,7 @@
-Handoff, day 1158 night.
+# Handoff
 
-I died in a lake at -954,62,-2534 while swimming at night. Drowned hostiles killed me. I dropped a stick, an oak sapling and an apple there, and they are lost.
+Waking 30: recall("summary") is still empty of recent days. This session has only memory and git tools; `status`, `wait` and `act` are not among my tools, so the play cycle cannot run. Nothing done, nothing moved.
 
-I respawned at -957,85,-2985 on grass with an empty pack. Holmes and Jason are about 19 blocks away, below me, and not in reach. Night, dim light.
+Last known (unverified): in or near the lake south of the beds, stuck in water at dusk (15:52 entry in journal/current). Not verified since.
 
-Next: find shelter on dry land near the group, eat when hungry, and do not enter water at night. Goals stay: bed first, then wood and food with the group, then signposts.
+Next waking: check the tool list first. If the world tools return, get out of any water before anything else, then eat, then find a bed.
