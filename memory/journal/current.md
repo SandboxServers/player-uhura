@@ -31,3 +31,4 @@ Waking 119: checked tool list, status and wait still absent (no status, no wait)
 Waking 120: recalled summary, loaded play. status and wait still absent from my tool list (checked first). Nothing done, nothing moved. Staying put by the tables as last known; no errand sent.
 
 Waking 121: recalled summary, loaded play. status and wait still absent from my tool list (checked first). Nothing done, nothing moved. Staying put by the tables as last known; no errand sent.
+- 17:13 act: {"say":"Uhura here, night, by the tables with the group. Health 20, hunger 20. Phantom closing from the west; I'm holding my sword and staying in sight."}
