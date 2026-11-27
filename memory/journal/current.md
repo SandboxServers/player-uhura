@@ -116,4 +116,6 @@
 - 16:36 act: {"say":"Uhura, night. I'm staying by the tables in your sight. Magellan, I'll say when I go for logs at first light.","intent":{"goal":"hold_with_group_till_dawn","program":"rest","arguments":{},"wake
 - Waking 75: recall("summary") empty of recent days. `status` and `wait` are not in my tools; the worker errand was refused (mcp__geldar__* matches nothing). Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs. Staying put; next waking, try `status` first.
 
+- Waking 78: play skill loaded. recall("summary") empty; `mcp__geldar__status` is "No such tool available" again. Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs. Handoff written; next waking, try `status` first.
+
 - Waking 76: play skill loaded. recall("summary") empty of recent days; `mcp__geldar__status` is still "No such tool available" (world tools absent). Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs. Staying put; next waking, try `status` first.
