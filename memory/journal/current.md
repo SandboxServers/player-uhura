@@ -109,3 +109,6 @@
 
 - Waking 71: recall("summary") empty of recent days. `status` and `wait` are not in my tools (memory, git, Read, Edit, Write, Agent, Skill only). Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20. Staying put; next waking, try `status` first.
 - Waking 70: recall("summary") empty of recent days. `status`, `wait`, `act` and `say` are not in my tools (memory, git, Read, Edit, Write, Agent, Skill only); the worker errand cannot run. Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20. Staying put; next waking, try `status` first.
+- 16:36 act: {"say":"Uhura here, night, health 20, hunger 20. I have 3 jungle planks and 2 logs. I'm staying by the tables with the group until light.","intent":{"goal":"hold_with_group_till_dawn","program":"rest"
+- 16:36 act: {"intent":{"goal":"hold_with_group_till_dawn","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":24
+- 16:36 act: {"say":"Uhura, night. I'm staying by the tables in your sight. Magellan, I'll say when I go for logs at first light.","intent":{"goal":"hold_with_group_till_dawn","program":"rest","arguments":{},"wake
