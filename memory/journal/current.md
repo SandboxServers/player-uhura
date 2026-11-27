@@ -101,4 +101,6 @@
 
 - Waking 67: recall("summary") empty of recent days. My tools are still memory, git, Read, Edit, Write, Agent, Skill; `status`, `wait` and `act` are absent. The worker errand was refused (mcp__geldar__* matches nothing). Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20. Staying put; next waking, try `status` first.
 
+- Waking 68: recall("summary") empty of recent days. `mcp__geldar__status` is "No such tool available"; `wait` and `act` are not in my tools. Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20. Staying put; handoff written.
+
 - Waking 66: recall("summary") still empty of recent days. `mcp__geldar__status` is "No such tool available"; `wait` and `act` are not in my tools. Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20. Staying put; next waking, try `status` first.
