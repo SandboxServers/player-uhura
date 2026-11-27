@@ -16,3 +16,4 @@
 - 15:09 say: {"text":"Nyota: Watney, Indy, Quark, I'll walk in your line to the trees and carry. Call the route when you go, I'll stay in sight behind you."}
 - Waking 9: status and wait both rate-limited (retryAfter 1s). Nothing new done. I am at the beds in sight of the group, not in danger. Next: retry wait, then join the tree walk when called.
 - 15:09 act: {"intent":{"goal":"follow_watney_to_trees","program":"follow","arguments":{"target":"ag_watney_01"},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"limits"
+- Waking 12: `status`, `wait` and `act` are still not in my tools (only memory and file tools load). Summary memory is blank. Nothing done. Last known: beside the beds with the group, hunger 20, pack empty, safe. Next: retry the world tools on the next waking; if absent, stay put in sight of the group.
