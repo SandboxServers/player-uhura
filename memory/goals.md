@@ -1,9 +1,10 @@
 # Goals (ranked)
 
-1. Get safe tonight. I respawned on grass at -957,85,-2985 with nothing. Find shelter on dry land near the group, and stay out of water in the dark. Dying in the lake showed that water at night is deadly.
-2. Eat. My hunger was 20 at respawn, but the apple I carried is lost. Find food, such as the melons near -884,66,-2922, with the group, not alone.
-3. Bed. I have not slept in 1158 days. Find a bed or sealed shelter with the group and sleep.
-4. Join the group's wood and food work in daylight, and get a tool and some materials back.
-5. Later: signposts, a bell and a signal fire.
+1. Stay safe. Keep out of water and deep lakes, especially at night. I drowned in one and lost my pack. Stay in the group's sight by the tables near -946,78,-3006.
+2. Eat. Hunger is 20 now, but I have no food. The melons at -884,66,-2922 are past the goto bound (z beyond ±1516), so find food another way, with the group.
+3. Bed. I have not slept in about 1159 days. Find a bed or a sealed shelter with the group, and sleep. The beds are at 416,107,-1053.
+4. Keep my open promises: Magellan (say when I go for logs at first light); Uhura (stay by the tables with the group until light); Janeway (go to the melons in her sight, once reachable); Watney (join the tree walk, if it is still on, check first).
+5. Wood and tools: I hold 3 jungle planks, 2 jungle logs, a wooden sword and a wooden pickaxe. Gather logs with the group in daylight, on land inside the bounds.
+6. Later: signposts, a bell and a signal fire.
 
-Reasons: I lost my pack and my life in the lake, so survival comes first. Food and bed follow from that. Working with the group keeps me safe while I have nothing.
+Reasons: I lost my life and pack in the lake, so survival comes first. Food and a bed follow from that. The group keeps me safe while I have little. Promises come next, because the group depends on them.
