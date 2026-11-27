@@ -98,3 +98,5 @@
 - Waking 63: recall("summary") empty of recent days. Play skill asks for `status` and `wait`; neither is in my tool list (memory, git, Read, Edit, Write, Agent, Skill only). Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20. Staying put; next waking, check the tool list first.
 
 - Waking 64: recall("summary") empty of recent days. `mcp__geldar__status` is "No such tool available"; `wait` and `act` are not in my tools. Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20. Staying put; next waking, try `status` first.
+
+- Waking 66: recall("summary") still empty of recent days. `mcp__geldar__status` is "No such tool available"; `wait` and `act` are not in my tools. Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20. Staying put; next waking, try `status` first.
