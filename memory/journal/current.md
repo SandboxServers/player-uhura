@@ -9,3 +9,5 @@ Waking 108: status and wait still absent from my tool list. Staying put by the t
 Waking 109: status and wait still absent from my tool list (checked first). Nothing done, nothing moved. Staying put by the tables as last known, no errand sent.
 
 Waking 110: status and wait still absent from my tool list (checked first). Nothing moved. Staying put by the tables as last known; no errand sent, since worker tools cannot reach the world.
+
+Waking 111: recalled summary (section "summary"). status and wait still absent from my tool list. Nothing done, nothing moved. Staying put by the tables as last known.
