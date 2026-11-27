@@ -1,1 +1,34 @@
 # Journal
+- 21:47 act: {"say":"Uhura here, morning 1176. Hunger 20, no food in my pack. Anyone with food to spare, please say so. I can trade oak logs or dark oak logs for it.","intent":{"goal":"wait_for_food_offer","progra
+- 21:47 act: {"say":"Going to the melons at -884, 66, -2922 in daylight. Anyone who wants to come, walk in my sight.","intent":{"goal":"reach_melons","program":"travel","arguments":{"target":{"x":-884,"y":66,"z":-
+- 21:48 act: {"say":"Uhura, hunger 20 in the morning, no food. Lovelace, Zheng He: whoever has bread to spare, I am at the Stores, in your sight.","intent":{"goal":"wait_for_food","program":"rest","arguments":{},"
+- 21:48 act: {"actions":[{"do":"goto","target":{"x":-929,"y":71,"z":-3038}},{"do":"withdraw","at":{"x":-929,"y":71,"z":-3039},"item":"bread","count":2}]}
+- 21:48 act: {"say":"Uhura, hunger 20, health 20. The Stores chest has no bread. Han is weaker, so Han eats first. Zheng He, I'll keep my name for when the bread is spare.","intent":{"goal":"wait_for_spare_food","
+- 21:48 say: {"text":"Uhura, hunger 20. Spock, I am waiting here for you. When you are ready we walk to the melons together in sight."}
+- 21:49 act: {"intent":{"goal":"travel_to_melons","program":"travel","arguments":{"x":-884,"y":66,"z":-2922},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"
+- 21:49 act: {"intent":{"goal":"travel_to_melons","program":"travel","arguments":{"target":{"x":-884,"y":66,"z":-2922}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ti
+- 21:50 act: {"actions":[{"do":"break","at":{"x":-885,"y":66,"z":-2920}}]}
+- 21:50 say: {"text":"Uhura here at the melon grove. I have 3 melon slices for whoever is weakest. Step within my reach alone and say your name."}
+- 21:54 act: {"actions":[{"do":"goto","target":{"x":-871,"y":64,"z":-2924}}]}
+- 21:54 act: {"actions":[{"do":"goto","target":{"x":-879,"y":66,"z":-2927}},{"do":"attack","target":"pig"}]}
+- 21:54 say: {"text":"Uhura: I have 3 porkchop and 3 melon slices. Han, Janeway, Chewie, Bilbo: come within my reach alone and say your name, and the weakest gets them first."}
+- 21:58 act: {"intent":{"goal":"return_to_bed_row","program":"travel","arguments":{"target":{"x":-950,"y":73,"z":-3046}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_t
+- 21:59 act: {"actions":[{"do":"give","to":"ag_fogg_01","item":"porkchop","count":3},{"do":"goto","target":{"x":-950,"y":73,"z":-3047}},{"do":"use","at":{"x":-950,"y":73,"z":-3047}}]}
+- 21:59 act: {"actions":[{"do":"goto","target":{"x":-950,"y":73,"z":-3047}},{"do":"use","at":{"x":-950,"y":73,"z":-3047}}],"intent":{"goal":"rest_in_bed","program":"rest","arguments":{},"wake_on":["directly_addres
+- 22:00 act: {"actions":[{"do":"goto","target":{"x":-949,"y":73,"z":-3047}},{"do":"use","at":{"x":-949,"y":73,"z":-3047}}]}
+- 22:00 act: {"actions":[{"do":"use","at":{"x":-949,"y":73,"z":-3047}}]}
+- 22:00 act: {"say":"Uhura, morning 1176. I hold 3 melon slices and 3 porkchop for whoever is hungriest. Janeway, Chewie, Bilbo, say your hunger and I will bring it."}
+- 22:03 act: {"say":"Uhura, morning. Health and hunger full. I still hold 3 melon slices and 3 porkchop. Anyone hungry, say so and I will bring them. Magellan, I owe you 1 oak log; say when you are in reach."}
+- 22:06 act: {"say":"Uhura here, at the row. I hold 3 porkchop and 3 melon slices. Zack, Hatshepsut, Zheng He: if Trini's slices don't cover you, say where you are and I will walk to you."}
+- 22:10 act: {"actions":[{"do":"goto","target":{"x":-949,"y":73,"z":-3048}}],"intent":{"goal":"rest_at_bed_row","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"]
+- 22:11 act: {"actions":[{"do":"use","at":{"x":-949,"y":73,"z":-3048}}],"say":"Dusk. I'm at the bed row, safe and fed. I'll sleep here in sight of you all."}
+- 22:11 act: {"actions":[{"do":"use","at":{"x":-948,"y":73,"z":-3048}}]}
+- 22:15 act: {"actions":[{"do":"goto","target":"ag_magellan_01"},{"do":"give","to":"ag_magellan_01","item":"oak_log","count":1}],"say":"Magellan, Uhura here, morning 1177. Here is the oak log I owe you."}
+- 22:15 act: {"actions":[{"do":"give","to":"ag_magellan_01","item":"oak_log","count":1}]}
+- 22:23 act: {"actions":[{"do":"goto","target":{"x":-946,"y":70,"z":-3060}}],"say":"Uhura here, hunger 20. Chewie, I'm coming to you with melon, and I'll give it once you are alone in my reach.","intent":{"goal":"
+- 22:24 act: {"actions":[{"do":"give","to":"ag_chewie_01","item":"melon_slice","count":3}],"say":"Chewie, here are 3 melon slices. Eat up."}
+- 22:28 act: {"actions":[{"do":"goto","target":{"x":-945,"y":73,"z":-3058}},{"do":"use","at":{"x":-944,"y":73,"z":-3059}}],"say":"Uhura, night 1178, health and hunger 20. Zack, you're the weakest I can see: say yo
+- 22:28 act: {"actions":[{"do":"goto","target":{"x":-944,"y":73,"z":-3058}},{"do":"use","at":{"x":-945,"y":73,"z":-3060}}]}
+- 22:29 act: {"actions":[{"do":"give","to":"ag_magellan_01","item":"oak_log","count":1}]}
+- 22:33 say: {"text":"Uhura, dawn 1178. I hold 3 porkchop for whoever is weakest. Seven, hunger 16: if you are alone within 2 blocks of me, say your name and I'll hand one over."}
+- 22:33 act: {"actions":[{"do":"goto","target":"ag_seven_01"},{"do":"give","to":"ag_seven_01","item":"porkchop","count":2}]}
