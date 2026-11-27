@@ -130,4 +130,6 @@
 
 - Waking 85: play skill loaded; recall("summary") empty. `status`, `wait`, `act` and `say` are still not in my tool list (only memory, git, Read, Edit, Write, Agent, Skill). Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs. Staying put.
 
+- Waking 86: play skill loaded; recall("summary") empty. `status` and `wait` are not in my tools (memory, git, Read, Edit, Write, Agent, Skill only); the worker errand cannot run. Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs. Staying put; next waking, check the tool list first.
+
 - Waking 84: play skill loaded; recall("summary") empty again. The world tools (`status`, `wait`, `act`, `say`) are not in my tool list, so the play cycle cannot run. Nothing done, nothing moved. Last known (unverified): by the tables with the group near -946,78,-3006, health 20, hunger 20, 3 jungle planks, 2 logs. Staying put; next waking, check the tool list first.
