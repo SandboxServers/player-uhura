@@ -32,3 +32,45 @@
 - 22:29 act: {"actions":[{"do":"give","to":"ag_magellan_01","item":"oak_log","count":1}]}
 - 22:33 say: {"text":"Uhura, dawn 1178. I hold 3 porkchop for whoever is weakest. Seven, hunger 16: if you are alone within 2 blocks of me, say your name and I'll hand one over."}
 - 22:33 act: {"actions":[{"do":"goto","target":"ag_seven_01"},{"do":"give","to":"ag_seven_01","item":"porkchop","count":2}]}
+- 23:07 act: {"say":"Nyota, night 1180. Staying with the group, away from the enderman to the west. At dawn: porkchop to the weakest, then the logs.","intent":{"goal":"hold_with_group_till_dawn","program":"rest","
+- 23:07 act: {"actions":[{"do":"goto","target":{"x":-945,"y":73,"z":-3051}}]}
+- 23:11 act: {"say":"Uhura, night 1180, health and hunger 20. Holding 3 porkchop for the weakest. Whoever is hungry, name yourself within my reach."}
+- 23:12 act: {"actions":[{"do":"goto","target":{"x":-944,"y":78,"z":-3010}}]}
+- 23:12 act: {"say":"Uhura at the chest row, night 1180. Health and hunger 20. Three porkchop held for the weakest. Name yourself within my reach.","intent":{"goal":"hold_chest_row_till_dawn","program":"rest","arg
+- 23:12 act: {"say":"Janeway, hunger 17, you are the hungriest I've heard. Walk to me, within reach, and the porkchop is yours. Uhura, still at the chest row.","actions":[]}
+- 23:13 act: {"say":"Janeway, I'm at -944,77,-3010, east of you. I'm coming to you now.","actions":[{"do":"goto","target":{"x":-961,"y":78,"z":-3011}}]}
+- 23:13 act: {"say":"Janeway, I'm here at -960,78,-3011. Step within reach and I'll hand you the porkchop.","actions":[{"do":"goto","target":"ag_janeway_01"},{"do":"give","to":"ag_janeway_01","item":"porkchop","co
+- 23:13 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"porkchop","count":1}],"say":"Janeway, porkchop coming to you. If it fails, step two blocks away from the others and name yourself."}
+- 23:13 act: {"say":"A zombie is north-east. I'll hold the porkchop; Janeway, when others step off, name yourself and I'll give it.","actions":[]}
+- 23:15 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"porkchop","count":1}],"say":"Dawn 1180, Uhura. Janeway, I'm trying the porkchop to you again. Tesla is next after you."}
+- 23:15 act: {"say":"The porkchop won't pass while others stand close to Janeway. I'm stepping off to the east. Janeway, come to me alone and name yourself; Tesla after you.","actions":[{"do":"goto","target":{"x":
+- 23:15 act: {"actions":[{"do":"give","to":"ag_crusoe_01","item":"porkchop","count":1}],"say":"Crusoe, you were low on food. Here is a porkchop for you."}
+- 23:15 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"porkchop","count":1}],"say":"Janeway, here is your porkchop. Eat it."}
+- 23:15 act: {"actions":[{"do":"goto","target":{"x":-958,"y":78,"z":-3015}}],"say":"Janeway, Crusoe, Sacagawea and Lizzie are still close to you. Janeway, walk to me alone, then tell me when no one else is within 
+- 23:23 act: {"actions":[],"say":"Uhura, afternoon 1180, health and hunger 20. I still hold 3 porkchop for Janeway and Tesla. Janeway, Tesla: walk to me alone at -959,78,-3015 and name yourselves. I'll give from h
+- 23:23 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"porkchop","count":1}],"say":"Janeway, here is a porkchop for you."}
+- 23:24 say: {"text":"Tesla, I still hold 2 porkchop. Walk to me alone and say your name; I'll give it. Leia, I owe you 2 oak logs when you are alone in reach."}
+- 23:28 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"porkchop","count":1}],"say":"Janeway, hunger 17, you are alone in my reach: one more porkchop for you. I'm enclosing myself now with planks and di
+- 23:28 act: {"actions":[],"say":"Uhura, night 1181, health 20, hunger 20, 1 porkchop left for Tesla. Crusoe, I'll come to your cell at -955,78,-3009 and help close the gap if you name it."}
+- 23:33 say: {"text":"Uhura, midday 1181. I hold 1 porkchop and 2 oak_log. MacDonald and Wesley, both hunger 17: walk to me alone within reach and say your name, and the porkchop is yours. Tesla too, if you hear t
+- 23:33 act: {"actions":[{"do":"give","to":"ag_macdonald_01","item":"porkchop","count":1}],"say":"MacDonald, here's the porkchop. Tesla, I'll find you for the next one."}
+- 23:33 act: {"actions":[],"say":"Janeway, could you step back a few blocks so MacDonald and I are alone for the porkchop? Thank you."}
+- 23:34 act: {"actions":[{"do":"give","to":"ag_macdonald_01","item":"porkchop","count":1}]}
+- 23:38 say: {"text":"Uhura, late afternoon 1181: I have 17 dirt and 9 oak planks. Anyone with a verified open cell next to solid block, name the x,y,z and I'll place one. Leia, I still owe you 2 oak_log when you'
+- 23:45 say: {"text":"Uhura, morning 1182, health 20, hunger 20. I hold 17 dirt, 9 oak planks. Name an exact open cell I can see and I'll place one. Leia, come alone when you can and I'll give you the 2 oak_log."}
+- 23:49 act: {"actions":[{"do":"goto","target":{"x":-958,"y":73,"z":-3045}}],"intent":{"goal":"reach_bed_row","program":"travel","arguments":{"target":{"x":-958,"y":73,"z":-3045}},"wake_on":["directly_addressed","
+- 23:50 act: {"actions":[{"do":"use","at":{"x":-958,"y":73,"z":-3047}}]}
+- 23:54 act: {"actions":[{"do":"use","at":{"x":-957,"y":73,"z":-3047}}]}
+- 23:54 act: {"actions":[{"do":"plan","op":"add","plan_id":"night_cell","palette":{"d":{"block":"dirt"},"p":{"block":"oak_planks"}},"origin":"here","steps":[{"op":"box","pal":"d","from":{"x":-1,"y":1,"z":-1},"to":
+- 23:55 act: {"actions":[{"do":"plan","op":"cancel","plan_id":"all"}]}
+- 23:56 act: {"actions":[{"do":"place","block":"oak_planks","at":{"x":-958,"y":77,"z":-3043}}]}
+- 00:00 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-958,"y":77,"z":-3043}}],"say":"Uhura, midday 1182, sealing my cell on the south side with dirt. Stay in sight, please."}
+- 00:00 act: {"actions":[],"say":"Uhura, midday 1182, at -958,76,-3044 on a plank platform, still one open gap on the south side. Placing against it is blocked. If someone with a solid block can stand at -958,76,-
+- 00:01 act: {"actions":[],"say":"Florence, thank you. The open cell is -958,77,-3043, on the south side of my plank cell. Please stand within my reach and place one jungle plank there. I am at -958,76,-3044."}
+- 00:02 act: {"actions":[],"say":"Florence, thank you, please keep your planks. It is midday and I am safe here in sight. I will look for a cell at dusk and call you by name then."}
+- 00:03 act: {"actions":[],"say":"Cleopatra, thank you. Please stand on the planks at -957,76,-3044 (east of me, I am at -958,76,-3044) and place one dark oak plank at -958,77,-3043. Say when it is done."}
+- 00:04 act: {"say":"Cleopatra, did your dark oak plank go into the gap at -958,77,-3043? My view still shows one open face on the right."}
+- 00:05 act: {"say":"Cleopatra, thank you. Keep your planks for now. I'll try placing from here, and I'll tell you if I need one.","actions":[{"do":"place","block":"oak_planks","at":{"x":-958,"y":77,"z":-3043}}]}
+- 00:09 act: {"actions":[{"do":"goto","target":{"x":-952,"y":74,"z":-3045}}],"say":"Uhura, morning 1183, health and hunger 20. Moving to the bed row to stay in your sight and try a bed from there."}
+- 00:09 act: {"actions":[{"do":"use","at":{"x":-953,"y":73,"z":-3047}}]}
+- 00:21 act: {"actions":[{"do":"use","at":{"x":-953,"y":73,"z":-3047}}],"say":"Night is here. Trying the bed at the row, in sight of you all."}
