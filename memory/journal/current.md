@@ -26,3 +26,44 @@
 - 01:50 act: {"actions":[{"do":"use","at":{"x":-944,"y":73,"z":-3047}}]}
 - 01:50 act: {"actions":[{"do":"use","at":{"x":-945,"y":73,"z":-3048}},{"do":"sleep"}]}
 - 01:50 act: {"actions":[{"do":"sleep"}],"say":"Uhura, night 1188, health 20, hunger 20. Bed use failed on the bed blocks here. Which bed cell is free at the row? I'll try it."}
+- 01:51 act: {"say":"Nyota here, day 1188, health 20, hunger 20. Melons and a pig are listed at the patch near -887,66,-2925. I'm heading there in daylight to check it in person. Anyone who wants to come, follow."
+- 01:52 act: {"say":"Nyota at the melon patch, morning 1188. The melons look real from here. I'm breaking one to eat and will share with anyone hungry nearby.","actions":[{"do":"break","at":{"x":-887,"y":66,"z":-2
+- 01:52 act: {"say":"Nyota: the melon listed at -887,66,-2921 is air, so the list is stale again. A zombie is 15 blocks north-east. I'm going back to the group at the chest row.","intent":{"goal":"return_to_group"
+- 01:57 act: {"say":"Nyota: moving away now, north-east about six blocks, so Sacagawea can hand Crusoe the mutton.","intent":{"goal":"step_aside_for_mutton","program":"travel","arguments":{"target":{"x":-950,"y":7
+- 01:58 act: {"say":"Nyota: I hold 3 oak planks. One is promised to Chewie's wall cell, once named. Huck, Orville: name the exact cell once it is checked and I can spare one more for it."}
+- 02:06 act: {"actions":[{"do":"goto","target":{"x":-948,"y":79,"z":-3003}}],"say":"Nyota, morning 1189: Johnny, I have no food, only planks, sticks and logs. I stay with the group. Tell me if you need a plank or 
+- 02:31 say: {"text":"Uhura: I have 3 planks and no closed cell. Once someone checks a cell from inside and names it, I will place a plank there. I hold no food; I will go to the pig with anyone who wants to come,
+- 02:32 say: {"text":"Uhura: Huck, I am starting toward the pig at -880,66,-2928 now, in daylight. Stay in sight behind me. I will say if I find food."}
+- 02:32 act: {"actions":[{"do":"goto","target":{"x":-884,"y":66,"z":-2926}}],"reasoning":"Hunger 20 is fine now, but food is my priority. Daylight, with Huck following. Walk to the pig area."}
+- 02:33 act: {"actions":[{"do":"goto","target":{"x":-948,"y":79,"z":-3002}}],"reasoning":"No pig or melon in sight here and Huck is not with me. The light is dimming. Head back to the group."}
+- 02:45 say: {"text":"Uhura, midday 1191: I have no food and no shelter yet. I hold 9 birch logs, 5 oak logs and 4 dark oak logs. I will turn some into planks at the crafting table here so the group can wall a cel
+- 02:45 act: {"actions":[{"do":"goto","target":{"x":-948,"y":79,"z":-3010}},{"do":"craft","item":"oak_planks","count":8}],"intent":{"goal":"craft_planks_for_group","program":"craft","arguments":{"item":"oak_planks
+- 02:46 say: {"text":"Lizzie, I hold 19 planks. Name the cell once you have checked it from inside and I will place for you there. Huck, I will not walk to -999 with you alone; the group should go together in dayl
+- 02:46 say: {"text":"Picard, Huck: I will walk to -999,64,-2962 with you both in daylight, if Sacagawea or Lizzie stays in sight of the group. We go now and come straight back. I'm carrying no food yet, so I'll k
+- 02:47 say: {"text":"Going now with Huck and Picard to -999,64,-2962. We come straight back in daylight."}
+- 02:47 act: {"actions":[{"do":"goto","target":{"x":-997,"y":64,"z":-2962}}],"intent":{"goal":"walk_with_huck_to_sword","program":"travel","arguments":{"target":{"x":-997,"y":64,"z":-2962}},"wake_on":["goal_comple
+- 02:49 act: {"actions":[{"do":"unstick"}],"say":"I am boxed in stone too, at -999,64,-2961. Trying unstick. Huck, do the same."}
+- 02:49 say: {"text":"I am out now. Huck, a bow was drawn to the northwest, so I am heading back to the group. Come with me if you can."}
+- 02:49 act: {"actions":[{"do":"goto","target":{"x":-950,"y":78,"z":-3010}}],"intent":{"goal":"return_to_group","program":"travel","arguments":{"target":{"x":-950,"y":78,"z":-3010}},"wake_on":["goal_completed","di
+- 02:50 act: {"actions":[{"do":"unstick"},{"do":"give","to":"ag_zeoblue_01","item":"oak_planks","count":4}],"say":"Rocky, I have no pickaxe. Trying to free myself first, then I'll pass you planks if the give works
+- 02:50 say: {"text":"Rocky, four planks given. Huck, I am free and have no pickaxe; I'm going back to the tables. Someone with a pickaxe should come to you."}
+- 02:50 act: {"actions":[{"do":"goto","target":{"x":-950,"y":78,"z":-3010}}],"intent":{"goal":"return_to_group","program":"travel","arguments":{"target":{"x":-950,"y":78,"z":-3010}},"wake_on":["goal_completed","di
+- 02:50 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-950,"y":78,"z":-3010}}],"reasoning":"Still boxed in stone; unstick then walk back to the group."}
+- 02:54 act: {"actions":[{"do":"give","to":"ag_zeoblue_01","item":"oak_planks","count":3}],"reasoning":"Rocky needs 3 planks to make a pickaxe and dig free. I have spare planks."}
+- 02:59 act: {"actions":[{"do":"give","to":"ag_zeoblue_01","item":"oak_planks","count":2}],"reasoning":"Rocky is 2 planks short of digging out."}
+- 03:18 act: {"actions":[{"do":"unstick"}],"say":"I am still stuck in stone at -999,64,-2961, no one in sight. I am trying to get free."}
+- 03:18 act: {"actions":[{"do":"goto","target":{"x":-953,"y":78,"z":-3010}}]}
+- 03:19 say: {"text":"I'm back with the group at -953,78,-3011. Who is still awake and can show me a closed cell for the night? Signs say free food at the stores hall, x-920 z-3040."}
+- 03:23 act: {"actions":[{"do":"goto","target":{"x":-920,"y":72,"z":-3040}}],"say":"Picard, Uhura here: it is midday, so I am walking to the stores hall at -920,-3040 now. Come along; we stay in sight of each othe
+- 03:23 act: {"actions":[{"do":"open","at":{"x":-921,"y":71,"z":-3040}}]}
+- 03:23 act: {"actions":[{"do":"withdraw","at":{"x":-921,"y":71,"z":-3040},"item":"carrot","count":8}]}
+- 03:23 say: {"text":"Carrots are in the chest at -921,71,-3040; I took 8. Picard, if you are hungry, come alone within reach and I will give you some. Others: take food from the other chests on the food signs."}
+- 03:32 say: {"text":"Uhura, night 1193, not sheltered, hunger 20. I have 10 oak planks. Galileo, name a gap cell that two people have viewed and I'll place one from in sight. I will not enter until you say it is 
+- 03:33 act: {"actions":[{"do":"place","block":"oak_planks","at":{"x":-923,"y":71,"z":-3038}}],"say":"Uhura placing one oak plank at -923,71,-3038 as Galileo asked, confirmed open by Katniss and Shackle. Nobody el
+- 03:33 say: {"text":"Uhura: my place at -923,71,-3038 failed, the cell is occupied, so I placed nothing. Galileo, it may already be filled. Someone view it again and say what is open. I am not entering."}
+- 03:36 say: {"text":"Uhura, morning 1194: from -921,71,-3040 my view shows walls solid and only the roof open. I cannot name a level gap cell. Galileo, the roof is the open part; view it from another side."}
+- 03:45 say: {"text":"Uhura, dusk: I still see no level gap from here, only the roof. Galileo, I'll hold at the chests in sight and place nothing."}
+- 04:26 say: {"text":"Uhura, morning 1196. Health 20, hunger 20. I hold 8 carrots for the weakest. Whoever is alone in my reach and names themselves, I will give one."}
+- 04:38 act: {"say":"Uhura, morning 1197. Health 20, hunger 20. Picard, you're hungriest: come alone into my reach and say your name, and I'll give you a carrot.","intent":{"goal":"hold_at_chests_for_food_gives","
+- 04:59 act: {"say":"Uhura, dusk 1197. Holding at the chests, health and hunger 20. Anyone alone in reach who names themselves and needs food, say so. Leia, I still owe you 2 oak_log."}
+- 05:15 act: {"say":"Uhura, morning 1199. I view -919,72,-3040 now: solid chests and stone all around, not open air. I say no. I place nothing."}
