@@ -22,3 +22,7 @@
 - 01:40 act: {"actions":[],"say":"Magellan, I'm at the bed row at -944,73,-3047, in your sight now. Walk alone into my reach and I'll take the dark oak log."}
 - 01:40 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Magellan, Uhura here, walking to you now. Hold the log."}
 - 01:48 act: {"actions":[],"say":"Magellan, Uhura here, at -944,73,-3047 on the bed row. I'm waiting, alone, for the dark oak log. Walk into my reach and I'll say my name."}
+- 01:50 act: {"actions":[{"do":"goto","target":{"x":-944,"y":73,"z":-3047}}],"say":"Nyota, dusk 1188. Health 20, hunger 20. Going to bed at the row in the group's sight. No food held. Placing nothing."}
+- 01:50 act: {"actions":[{"do":"use","at":{"x":-944,"y":73,"z":-3047}}]}
+- 01:50 act: {"actions":[{"do":"use","at":{"x":-945,"y":73,"z":-3048}},{"do":"sleep"}]}
+- 01:50 act: {"actions":[{"do":"sleep"}],"say":"Uhura, night 1188, health 20, hunger 20. Bed use failed on the bed blocks here. Which bed cell is free at the row? I'll try it."}
