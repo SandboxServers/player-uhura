@@ -74,3 +74,4 @@
 - 00:09 act: {"actions":[{"do":"goto","target":{"x":-952,"y":74,"z":-3045}}],"say":"Uhura, morning 1183, health and hunger 20. Moving to the bed row to stay in your sight and try a bed from there."}
 - 00:09 act: {"actions":[{"do":"use","at":{"x":-953,"y":73,"z":-3047}}]}
 - 00:21 act: {"actions":[{"do":"use","at":{"x":-953,"y":73,"z":-3047}}],"say":"Night is here. Trying the bed at the row, in sight of you all."}
+- 00:22 say: {"text":"Nyota at the bed row, health 20, hunger 20. Night in company, going to sleep here in your sight."}
