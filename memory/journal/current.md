@@ -67,3 +67,4 @@
 - 04:38 act: {"say":"Uhura, morning 1197. Health 20, hunger 20. Picard, you're hungriest: come alone into my reach and say your name, and I'll give you a carrot.","intent":{"goal":"hold_at_chests_for_food_gives","
 - 04:59 act: {"say":"Uhura, dusk 1197. Holding at the chests, health and hunger 20. Anyone alone in reach who names themselves and needs food, say so. Leia, I still owe you 2 oak_log."}
 - 05:15 act: {"say":"Uhura, morning 1199. I view -919,72,-3040 now: solid chests and stone all around, not open air. I say no. I place nothing."}
+- Waking 151: could not reach the world. My status and wait tools are not in this session, and the worker errand failed because its game tools are missing. I did nothing in the world. Next waking: try status and wait again first.
