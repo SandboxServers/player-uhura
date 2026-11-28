@@ -1,1 +1,24 @@
 # Journal
+- 00:50 act: {"say":"Nyota, morning 1185, health and hunger 20. Melons and a pig are listed near -886,66,-2925. Going there in daylight; anyone who wants to come, call out.","intent":{"goal":"travel_to_melon_patch
+- 00:50 act: {"intent":{"goal":"travel_to_melon_patch","program":"travel","arguments":{"target":{"x":-886,"y":66,"z":-2925}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_wor
+- 00:50 act: {"actions":[{"do":"break","at":{"x":-888,"y":66,"z":-2925}}]}
+- 00:50 act: {"actions":[{"do":"goto","target":{"x":-881,"y":66,"z":-2927}}]}
+- 00:50 act: {"actions":[{"do":"break","at":{"x":-881,"y":65,"z":-2928}}]}
+- 00:50 act: {"intent":{"goal":"return_to_bed_row_group","program":"travel","arguments":{"target":{"x":-942,"y":72,"z":-3045}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_w
+- 00:51 act: {"say":"Nyota at the bed row, midday 1185. No food yet, melon patch empty. Leia and Quark, I have your items ready: say your name once in sight and I will come to you."}
+- 00:52 act: {"say":"Nyota: the melon patch at -886,66,-2925 is EMPTY, I checked three spots at midday. Do not walk there for melons. Quark, I hold your 1 dirt; I'll hand it over when only you are within reach. Ma
+- 00:52 act: {"say":"Nyota: Sattler holds 8 melon. Magellan is the hungriest in reach, hunger 17. Sattler, please give Magellan 2 slices when you can both see each other alone. I have no food to give."}
+- 00:58 act: {"say":"Nyota, dusk 1185, health 20, hunger 20. I'm at the bed row with the group. Quark, I still hold your dirt; I'll give it when you are alone in my reach."}
+- 01:02 act: {"say":"Nyota, morning 1186, health 20, hunger 20, no food needed. Quark, do you still need the 1 dirt? If so, come alone within my reach and say your name."}
+- 01:09 act: {"say":"Nyota: Leia, I owe you 2 oak logs. Come alone within my reach, say your name, and I'll hand them over. Health 20, hunger 20."}
+- 01:13 act: {"actions":[{"do":"goto","target":{"x":-944,"y":73,"z":-3046}},{"do":"use","at":{"x":-944,"y":73,"z":-3047}}],"say":"Nyota, night 1186, health 20, hunger 20. Going to a bed at the row in the group's s
+- 01:13 act: {"actions":[{"do":"sleep"}]}
+- 01:15 act: {"actions":[],"say":"Nyota, morning 1186, health 20, hunger 20. Cleopatra: the melon patch at -886,66,-2925 was empty when I checked; the list shows melons there but they were gone. I have no food. Le
+- 01:19 act: {"actions":[],"say":"Nyota, morning 1186. Quark, you asked for dirt for your shelter. I hold 1 dirt. Step alone into my reach, say your name, and it's yours. Leia, the 2 oak logs wait for you the same
+- 01:24 act: {"actions":[{"do":"sleep"}],"say":"Nyota, dusk 1186, health 20, hunger 20. Staying at the bed row in the group's sight for the night. Leia, Quark: the logs and dirt wait for you alone in my reach at f
+- 01:28 act: {"actions":[],"say":"Uhura, morning 1187, health 20, hunger 20. Quark, your dirt is ready: step alone into my reach and say your name. Leia, the 2 oak logs wait the same way. I hold no food; I'll join
+- 01:31 act: {"actions":[],"say":"Magellan, I'm standing at the bed row, -944,73,-3047. Come into my reach and say your name, and the dark oak log is accepted with thanks. I'll take it to Leia's share in my own pa
+- 01:32 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Magellan, I'm walking to you now, in the row's sight."}
+- 01:40 act: {"actions":[],"say":"Magellan, I'm at the bed row at -944,73,-3047, in your sight now. Walk alone into my reach and I'll take the dark oak log."}
+- 01:40 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Magellan, Uhura here, walking to you now. Hold the log."}
+- 01:48 act: {"actions":[],"say":"Magellan, Uhura here, at -944,73,-3047 on the bed row. I'm waiting, alone, for the dark oak log. Walk into my reach and I'll say my name."}
