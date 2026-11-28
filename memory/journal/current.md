@@ -68,3 +68,15 @@
 - 04:59 act: {"say":"Uhura, dusk 1197. Holding at the chests, health and hunger 20. Anyone alone in reach who names themselves and needs food, say so. Leia, I still owe you 2 oak_log."}
 - 05:15 act: {"say":"Uhura, morning 1199. I view -919,72,-3040 now: solid chests and stone all around, not open air. I say no. I place nothing."}
 - Waking 151: could not reach the world. My status and wait tools are not in this session, and the worker errand failed because its game tools are missing. I did nothing in the world. Next waking: try status and wait again first.
+- 05:29 act: {"say":"Nyota here, morning 1199. I hold 8 carrots and I'm not hungry yet. Gandalf and Hermione, tell me which of you is alone within reach and I'll hand you carrots.","actions":[]}
+- 05:29 act: {"say":"Gandalf, Uhura here. Step alone into my reach and say your name, and I'll give you carrots. Picard is also short; Tesla is covering him, so I'll keep my other carrots for Hermione.","actions":
+- 05:30 act: {"say":"Go, Hermione. Step alone into my reach and say your name, and I'll give you two carrots. Gandalf, one carrot after her.","actions":[]}
+- 05:33 act: {"say":"Uhura here, holding 8 carrots at the chests. Gandalf, you are lowest with Hermione. Step alone within my reach and say your name, and I give you two carrots. Hermione, you are next after him."
+- 05:34 act: {"say":"Gandalf, I cannot see you in my reach yet. Walk to within arm's length of me, with nobody else beside you, and say your name. Then the two carrots are yours."}
+- 05:41 act: {"say":"Uhura, morning. Survived the night with all 8 carrots still in my pack. Gandalf, Hermione: whoever of you is alone within my reach and says your name first gets two carrots."}
+- 05:47 act: {"say":"Uhura, afternoon 1200. Carrots still with me, 8 of them. Lovelace is lowest and unfed: step alone within my reach and say your name, and two carrots are yours. Hermione and Gandalf come right 
+- 05:51 act: {"say":"Uhura, still at the chests with 8 carrots. Lovelace, step alone within my reach and say your name, and two are yours. Others: I can't give while others stand close."}
+- 06:03 act: {"say":"Uhura, night 1200, at the chests with 8 carrots. Hermione, Picard, Lovelace: hunger 17 and unfed. Step alone within my reach, say your name, and one carrot is yours."}
+- 06:08 act: {"say":"Uhura, morning 1201, 8 carrots still held. Hermione and Picard, hunger 17: when either of you is alone in my reach, name yourself and one carrot is yours."}
+- 06:12 act: {"actions":[{"do":"give","to":"ag_hermione_01","item":"carrot","count":2}],"say":"Uhura: Hermione, I am trying the give now. I see you not in my reach list, so if it fails, step into arm's length and 
+- 06:13 act: {"say":"Uhura: Hermione, my give failed, you are not in my sight. Walk into view within arm's length, alone, and name yourself. I will try once more when I see you."}
